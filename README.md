@@ -11,9 +11,18 @@ We use softmax and cross-entropy per task, rather than independent sigmoid outpu
 
 **Evidence policy:** 82% accuracy, 15% improvement, 3:1 imbalance, and <1.2 s latency
 are hypotheses until measured. Synthetic demo results never establish fashion accuracy.
-Read [the interview walkthrough](docs/INTERVIEW_GUIDE.md) and
+Read [the interview walkthrough](docs/PROJECT_INTERVIEW_COACHING.md) and
 [the implementation stages](docs/BUILD_STEPS.md) to explain the work honestly.
 The [architecture diagrams](docs/ARCHITECTURE.md) show how training and serving fit together.
+
+Download the complete interview coaching guide to your computer:
+
+- [PDF](https://github.com/csmax729/multi-label-fashion-classification/raw/refs/heads/main/docs/Fashion_Project_Interview_Coaching.pdf)
+- [Editable Word document](https://github.com/csmax729/multi-label-fashion-classification/raw/refs/heads/main/docs/Fashion_Project_Interview_Coaching.docx)
+- [Markdown source](docs/PROJECT_INTERVIEW_COACHING.md)
+
+The guide includes the full project walkthrough, four speaking versions, technical
+practice questions, and exercises for explaining the project confidently.
 
 The public dataset has now been audited and an initial model trained on all 31,106
 training examples. The one-epoch, frozen-backbone, 96-pixel baseline measured **57.73%
